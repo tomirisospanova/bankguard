@@ -44,7 +44,7 @@ bankguard/
 ## Установка и запуск
 
 ### 1. Клонирование репозитория
-git clone https://github.com/YourUsername/bankguard.git
+git clone https://github.com/tomirisospanova/bankguard.git
 cd bankguard
 
 ### 2. Установка зависимостей
@@ -61,4 +61,5 @@ python -m uvicorn backend.main:app --reload
 
 docker-compose up --build
 API будет доступен по адресу: http://localhost:8000/docs
+
 
